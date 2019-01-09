@@ -6,19 +6,15 @@
 <body>
 
 <div class="w3-container">
-  <h2>Buttons (w3-button)</h2>
-  <input type="button" class="w3-button w3-black" value="Input Button">
-  <button class="w3-button w3-black">Button Button</button>
-  <a href="#" class="w3-button w3-black">Link Button</a>
-</div>
+  <h1>Using w3-margin</h1>
 
-<div class="w3-container">
-  <h2>Buttons (w3-btn)</h2>
-  <input type="button" class="w3-btn w3-black" value="Input Button">
-  <button class="w3-btn w3-black">Button Button</button>
-  <a href="#" class="w3-btn w3-black">Link Button</a>
+  <div class="w3-border">
+    <div class="w3-container w3-margin w3-green">
+      <p>The w3-margin class adds 16px margin to all sides of an element.</p>
+    </div>
+  </div>
 </div>
 
 </body>
-</html>
+</html> 
 
