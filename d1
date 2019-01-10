@@ -6,24 +6,27 @@
 <body>
 
 <div class="w3-container">
-  <h2>Border Colors</h2>
+  <h2>Round Classes</h2>
 
-  <div class="w3-panel w3-border w3-border-red">
-    <p>I have red borders.</p>
+  <div class="w3-panel w3-round-small w3-teal">
+    <p>w3-round-small</p>
   </div>
 
-  <div class="w3-panel w3-border-left w3-border-blue">
-    <p>I have a blue left border.</p>
+  <div class="w3-panel w3-round w3-teal">
+    <p>w3-round</p>
   </div>
 
-  <div class="w3-panel w3-border-top w3-border-bottom w3-border-green">
-    <p>I have a green top and bottom border.</p>
+  <div class="w3-panel w3-round-large w3-teal">
+    <p>w3-round-large</p>
   </div>
 
-  <div class="w3-panel w3-border-left w3-pale-red w3-border-red">
-    <p>I have a red left border and a pale-red background color.</p>
+  <div class="w3-panel w3-round-xlarge w3-teal">
+    <p>w3-round-xlarge</p>
   </div>
 
+  <div class="w3-panel w3-round-xxlarge w3-teal">
+    <p>w3-round-xxlarge</p>
+  </div>
 </div>
 
 </body>
