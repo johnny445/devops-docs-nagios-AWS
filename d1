@@ -6,12 +6,32 @@
 <body>
 
 <div class="w3-container">
-  <h1>Heading 1 (36px)</h1>
-  <h2>Heading 2 (30px)</h2>
-  <h3>Heading 3 (24px)</h3>
-  <h4>Heading 4 (20px)</h4>
-  <h5>Heading 5 (18px)</h5>
-  <h6>Heading 6 (16px)</h6>
+
+<div class="w3-panel w3-padding-16 w3-orange">
+  <h4>w3-padding-16</h4>
+  <p>I have 16px top and bottom padding</p>
+</div>
+
+<div class="w3-panel w3-padding-24 w3-orange">
+  <h4>w3-padding-24</h4>
+  <p>I have 24px top and bottom padding</p>
+</div>
+
+<div class="w3-panel w3-padding-32 w3-orange">
+  <h4>w3-padding-32</h4>
+  <p>I have 32px top and bottom padding</p>
+</div>
+
+<div class="w3-panel w3-padding-48 w3-orange">
+  <h4>w3-padding-48</h4>
+  <p>I have 48px top and bottom padding</p>
+</div>
+
+<div class="w3-panel w3-padding-64 w3-orange">
+  <h4>w3-padding-64</h4>
+  <p>I have 64px top and bottom padding</p>
+</div>
+
 </div>
 
 </body>
