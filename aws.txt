@@ -1,0 +1,40 @@
+ S3 ENCRYPTION TYPES
+1. Rest encryption (Server Side Encryption (SSE))
+2. Client-side encryption
+3. transit encryption
+
+ GIT Branching strategy
+ 
+ master branch - stable (production code)
+ development branch - pre production code
+ feature branch - 
+ release branch - preperation of new production release
+ hot fix - patch production releases
+ 
+ DOCKER VERSION -19.03.3 (2019-10-07)
+ JENKINS VERSION - 3.1.0 (2019-01-21)
+ ANSIBLE VERSION - 2.5 (2.5.1 TO 2.5.15)
+ GIT VERSION - 2.16	2018-01-17	2.16.6	2019-12-07
+ MAVEN VERSION - 3.6.2 (2019-08-27)
+ APACHE TOMCAT VERSION - 8.5.61 (8.5.X)
+ APACHE (HTTPD) - 2.4.39 (APRIL 2019)
+ NGINX VERSION - 1.15.8 (2018-12-25)
+ SONARQUBE VERSION - 7.9.x LTS (July 2019)
+ NEXUS VERSION - 3.15.2
+ NAGIOS VERSION - 4.4.3 – (2019-01-15)
+ 
+ 
+ NGINX - It accelerates content and application delivery, improves security, 
+ facilitates availability and scalability for the busiest web sites on the Internet.
+ The NGINX source code is written in the C programming language.
+Declarative pipeline:
+The Declarative pipeline is a new feature that is added to create the pipeline. 
+This is basically written in a Jenkinsfile which can be stored into a source code management system such as Git. 
+Declarative pipelines is an ideal solution for the simple continuous delivery pipeline as it has very limited and pre-defined structure.
+
+Scripted pipeline:
+The scripted pipeline is a traditional way of writing the Jenkins pipeline as code. 
+Ideally, a Scripted pipeline is written in the Jenkins file on the web UI of Jenkins. 
+Unlike the Declarative pipeline, the scripted pipeline strictly uses groovy based syntax. 
+Since this, The scripted pipeline provides huge control over the script and can manipulate the flow of the script extensively. 
+This helps developers to develop advance and complex pipelines as code.
