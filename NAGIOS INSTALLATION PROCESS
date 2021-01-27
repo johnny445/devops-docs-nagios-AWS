@@ -42,6 +42,10 @@
  copy localhost.cfg file on /usr/local/nagios/etc/objects/localhost.cfg to server1.cfg and replace ip to host private ip and give local-servers1
  and also cfg_file=/usr/local/nagios/etc/objects/localhost.cfg
           cfg_file=/usr/local/nagios/etc/objects/server1.cfg
+	  cfg_file=/usr/local/nagios/etc/objects/server2.cfg
+	  
+	  restart both httpd and nagios---service nagios restart
+                                          service httpd restart
  
 	   
 	   
